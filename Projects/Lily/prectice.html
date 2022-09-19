@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            padding-left: 325px;
+        }
+
+        .navprimary{
+            background-color: #d9472e;
+            min-height: none;
+            max-height: 58px;
+            width: 60.25vw;
+            display: flex;
+            align-items: center;
+           
+        }
+
+        .navprimary li{
+            display: flex;
+            display: inline-block;
+        }
+
+        .nav1 {
+            background-color: aqua;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            z-index: 1;
+            width: 60.25vw;
+            
+
+        }
+
+        .nav1 ul {
+            display: flex;
+            align-items: center;
+            position: relative;
+            right: 107px;
+            
+        }
+
+        .box1 {
+            width: 40vw;
+            height: 120vh;
+            margin-bottom: 50px;
+        }
+
+        li {
+            margin: 30px;
+        }
+
+        .container {
+            position: relative;
+            left: 325px;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            background-color: rgb(245, 245, 245);
+            height: 400vh;
+            width: 60vw;
+            border: 2px solid black;
+        }
+
+        .typesoflily {
+            height: fit-content;
+            width: fit-content;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        figure {
+            border: thin #c0c0c0 solid;
+            display: flex;
+            flex-flow: column;
+            padding: 5px;
+            max-width: 420px;
+           
+        }
+
+        figcaption {
+            background-color: rgb(174, 219, 200);
+            color:black;
+            font: 12px sans-serif;
+            padding: 3px;
+            height: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <span>
+            
+            <img src="Savvy_Logo_HD-1024x142-1.webp" alt="logo">
+        </span>
+        <nav class="navprimary" >
+            <ul>
+                <li>Insects</li>
+                <li>Edibles</li>
+                <li>Ornamentals</li>
+                <li>DIY</li>
+                <li>Techniques</li>
+                <li>Advices and Tips</li>
+                <li>Seeds</li>
+            </ul>
+
+        </nav>
+        <nav class="nav1">
+            <ul>
+                <img src="lgog.jpg" alt="company logo" width="120px">
+                <li>Home</li>
+                <li>Know More</li>
+                <li>Careers</li>
+                <li>Contact Us</li>
+            </ul >
+            <div style="position:relative; right: -64px;" >
+                <button type="button">Log In</button>
+                <button type="button">Sign Up</button>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="typesoflily">
+            <img src="Types_of_lilies_featured.webp" alt="img">
+        </div>
+        <div class="box1">
+            <h1 style="color:rgb(78, 216, 78)">8 Types of lilies for your summer garden</h1><br>
+            <p>By Jessica Wheeler</p>
+            <hr><br><br>
+            <h2>1. Asiatic lilies</h2>
+            Asiatic hybrids are bred from several different species of lilies. They have 3 to 6 flowers per stem, and
+            the petals are often spotted. Asiatic lilies do not have a fragrance, and their flowers tend to be smaller
+            than some other types of lilies. They come in many different colors, including shades of orange, red,
+            yellow, and creamy white. Unfortunately, Asiatic lilies are a favorite of deer and rabbits. They have
+            strong, straight stems that seldom need staking when planted in full sun. Asiatics make wonderful,
+            long-lasting cut flowers.
+            <br><br>
+            <span>
+                <figure>
+                    <img src="https://i0.wp.com/savvygardening.com/wp-content/uploads/2019/03/Asiatic_type_of_lily.jpg?w=600&ssl=1"
+                    alt="asiatic lily">
+                    <figcaption>
+                        Though Asiatic lilies are being replaced by more modern hybrids, they’re a reliable bloomer worth growing.
+                    </figcaption>
+                </figure>
+            </span>
+            <div class="box2">
+                2. Oriental lilies
+
+                Of all the types of lilies, Oriental lilies are among the most fragrant. The heady perfume produced by
+                the flowers is particularly strong in the evening. Oriental lilies have broader leaves than some other
+                varieties of lilies, and the foliage and flowers are deer and rabbit resistant. The anthers of Oriental
+                lilies produce a lot of heavy pollen. If used as a cut flower, pull off the anthers as the bloom opens
+                to keep the pollen from staining furniture.
+
+                Oriental lily flowers are as large as a dessert plate, and many buds are found on each stem. Oriental
+                lilies come in various shades of pink and purplish red, in addition to white and creamy yellow. The
+                petals of some varieties are spotted and recurving, while others are not. Among the latest flowering
+                lilies, Orientals grow 2 to 5 feet tall.
+                <br>
+                <br>
+                <span>
+                    <figure>
+                        <img src="Best_oriental_lily_Acapulco.webp" height="420px" alt="img">
+
+                        <figcaption id="oriental lily" class="caption">
+                            Oriental lilies are fragrant and beautiful. This variety stops most folks in their tracks!
+                        </figcaption>
+                    </figure>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
